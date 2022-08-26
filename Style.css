@@ -1,0 +1,134 @@
+#main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c8d8cf;
+}
+#headerimg{
+    width: 12rem;
+    margin-left: 4rem;
+} 
+
+header{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #186A3B;
+    top:0;
+    left: 0;
+    right: 0;
+    
+}
+#leftbox{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+/*
+#leftbox h1{
+    font-style: italic;
+    font-size: 2rem;
+    font-family: 'Dancing Script', Cursive, Arial;
+    color: whitesmoke;
+    margin-left: 1rem;
+}
+*/
+#navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#navbar a{
+    text-align: center;
+    color: white;
+    margin: 0 2rem;
+    font-family: 'Dancing Script', Cursive, Arial;
+}
+#welcome{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c8d8cf;
+}
+#placeimg {
+    margin: 0 2rem;
+    width: 25rem;
+    height: 200px;
+}
+#help{
+    padding: 3px;
+    width: 300px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+#help h2{
+    font-size: 30px;
+}
+#help button{
+    width: 150px;
+    background-color: #186A3B;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.5rem;
+    font-size: 18px;
+    
+}
+.heading{
+    text-align: center;
+}
+#course {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    margin:2rem 0;
+    padding-top: 20px;
+} 
+#course h2{
+    text-align: center;
+    font-size: 18px;
+}
+.courseimg{
+    width: 20rem;
+    border-radius: 10px;
+}
+.web{
+    margin: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+#start{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #EAEDED;
+    line-height: 0.5rem;
+    padding:1rem;
+}
+.but button{
+    font-size: 18px;
+    background-color: #186A3B;
+    text-align: center;
+    padding: 0.5rem;
+    width: 150px;
+    color: white;
+    border-radius: 1rem;
+}
+footer{
+    background-color:#186A3B ;
+    margin-top: 2rem;
+    color:white;
+    padding: 0.5rem;
+    font-family: 'Dancing Script', Cursive, Arial;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    bottom: 0;
+}
